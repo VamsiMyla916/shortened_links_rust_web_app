@@ -1,6 +1,6 @@
 # Rusty Word Shortener
 
-A simple, pure-Rust URL shortener built as a tutorial web application. Instead of generating random strings, this app allows users to create custom, readable short links (e.g., `localhost:3000/borrow-checker`).
+A simple, pure-Rust URL shortener built as a tutorial web application. Instead of generating random strings, this app allows users to create custom, readable short links like `localhost:3000/borrow-checker`.
 
 ## Tech Stack
 
