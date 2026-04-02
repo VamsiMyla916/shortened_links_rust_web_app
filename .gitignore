@@ -1,0 +1,5 @@
+/target
+rusty.db
+rusty.db-shm
+rusty.db-wal
+.env

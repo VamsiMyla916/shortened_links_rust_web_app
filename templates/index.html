@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+  <body>
+    <h1>Rusty Word Shortener</h1>
+
+    {% if let Some(msg) = error_message %}
+    <p style="color: red">{{ msg }}</p>
+    {% endif %}
+
+    <form action="/shorten" method="post">
+      <input
+        type="url"
+        name="original_url"
+        placeholder="Paste long URL here"
+        required
+      />
+      <input
+        type="text"
+        name="rusty_alias"
+        placeholder="Custom word (e.g., borrow-checker)"
+        required
+      />
+      <button type="submit">Shorten!</button>
+    </form>
+  </body>
+</html>

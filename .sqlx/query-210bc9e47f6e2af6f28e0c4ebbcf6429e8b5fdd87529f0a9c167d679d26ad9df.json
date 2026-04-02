@@ -1,0 +1,20 @@
+{
+  "db_name": "SQLite",
+  "query": "SELECT original_url FROM links WHERE rusty_alias = ?",
+  "describe": {
+    "columns": [
+      {
+        "name": "original_url",
+        "ordinal": 0,
+        "type_info": "Text"
+      }
+    ],
+    "parameters": {
+      "Right": 1
+    },
+    "nullable": [
+      false
+    ]
+  },
+  "hash": "210bc9e47f6e2af6f28e0c4ebbcf6429e8b5fdd87529f0a9c167d679d26ad9df"
+}

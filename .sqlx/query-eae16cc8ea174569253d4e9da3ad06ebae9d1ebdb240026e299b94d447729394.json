@@ -1,0 +1,12 @@
+{
+  "db_name": "SQLite",
+  "query": "INSERT INTO links (original_url, rusty_alias) VALUES (?, ?)",
+  "describe": {
+    "columns": [],
+    "parameters": {
+      "Right": 2
+    },
+    "nullable": []
+  },
+  "hash": "eae16cc8ea174569253d4e9da3ad06ebae9d1ebdb240026e299b94d447729394"
+}
